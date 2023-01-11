@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.order.system.UI.BuyerReportController">
+   <children>
+      <Label alignment="CENTER" prefHeight="34.0" prefWidth="317.0" text="Csutomer Demographic Report" textFill="#390707" AnchorPane.leftAnchor="320.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutY="54.0" prefHeight="3.0" prefWidth="1000.0" />
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="34.0" prefWidth="222.0" text="Buyer Report 2021" textFill="#390707" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="75.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="350.0" layoutY="108.0" prefHeight="3.0" prefWidth="222.0" />
+      <PieChart fx:id="gender_pie" layoutX="25.0" layoutY="130.0" prefHeight="191.0" prefWidth="264.0" title="gender distribution" />
+      <BarChart fx:id="state_bar" layoutX="31.0" layoutY="354.0" prefHeight="236.0" prefWidth="920.0" title="State Distribution">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <PieChart fx:id="age_pie" layoutX="362.0" layoutY="124.0" prefHeight="203.0" prefWidth="247.0" title="age distribution" />
+      <PieChart fx:id="income_pie" layoutX="734.0" layoutY="124.0" prefHeight="203.0" prefWidth="237.0" title="income distribution" />
+   </children>
+</AnchorPane>

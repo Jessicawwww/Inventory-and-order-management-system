@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.order.system.UI.QuarterSalesController">
+   <children>
+      <Label alignment="CENTER" prefHeight="34.0" prefWidth="222.0" text="Quarterly Sales Report" textFill="#390707" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutY="54.0" prefHeight="3.0" prefWidth="1000.0" />
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="34.0" prefWidth="222.0" text="Quarterly Revenue in 2021" textFill="#390707" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="75.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="350.0" layoutY="108.0" prefHeight="3.0" prefWidth="222.0" />
+      <TableView fx:id="cate_rev_table" layoutX="240.0" layoutY="124.0" prefHeight="180.0" prefWidth="440.0">
+        <columns>
+          <TableColumn fx:id="colcate" prefWidth="101.99996948242188" text="Category" />
+          <TableColumn fx:id="colQ1" prefWidth="87.0" text="Q1 2021" />
+            <TableColumn fx:id="colQ2" prefWidth="74.0" text="Q2 2021" />
+            <TableColumn fx:id="colQ3" prefWidth="83.0" text="Q3 2021" />
+            <TableColumn fx:id="colQ4" prefWidth="93.0" text="Q4 2021" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="20.0" prefHeight="34.0" prefWidth="222.0" text="  Category Revenue Ratio 2021" textFill="#390707" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="310.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="350.0" layoutY="343.0" prefHeight="3.0" prefWidth="222.0" />
+      <PieChart fx:id="salesPie" layoutX="307.0" layoutY="346.0" prefHeight="238.0" prefWidth="306.0" />
+   </children>
+</AnchorPane>

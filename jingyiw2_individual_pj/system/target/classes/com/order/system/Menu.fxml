@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.order.system.UI.MenuController" >
+   <left>
+      <VBox prefHeight="400.0" prefWidth="110.0" style="-fx-background-color: #C9CBC0;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="67.0" text="Menu">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="items" mnemonicParsing="false" onAction="#handleItemAction" prefHeight="35.0" prefWidth="72.0" text="Items">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="stock" mnemonicParsing="false" onAction="#handleStockAction" prefHeight="35.0" prefWidth="72.0" text="Stock" textAlignment="CENTER" wrapText="true">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="buyers" mnemonicParsing="false" onAction="#handleBuyerAction" prefHeight="35.0" prefWidth="72.0" text="Buyers">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="orders" mnemonicParsing="false" onAction="#handleOrderAction" prefHeight="35.0" prefWidth="72.0" text="Orders">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="catalog" mnemonicParsing="false" onAction="#handleCatalogAction" prefHeight="35.0" prefWidth="72.0" text="Catalog">
+               <VBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="qreport" mnemonicParsing="false" onAction="#qReportAction" prefHeight="46.0" prefWidth="96.0" text="Quarterly Sales Report" wrapText="true">
+               <VBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="demoreport" mnemonicParsing="false" onAction="#buyerReportAction" prefHeight="46.0" prefWidth="96.0" text="Buyer Report" wrapText="true">
+               <VBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="itemreport" mnemonicParsing="false" onAction="#monthlyItemAction" prefHeight="46.0" prefWidth="96.0" text="Monthly Item Report" wrapText="true">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <BorderPane fx:id="mainPane" prefHeight="600.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

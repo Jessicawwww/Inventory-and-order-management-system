@@ -1,0 +1,16 @@
+spu_id,spu_name,sku_id,sku_name,cate_id,cate_name,color_code,size,price,,,description
+3001,lace shirt,300101,lace_shirt_white_L,30,shirt,white,L,179,,,semi-sheer long sleeve shirt with a regular collar and a button-up front.
+3001,lace shirt,300102,lace_shirt_black_M,30,shirt,black,M,179,3,537,semi-sheer long sleeve shirt with a regular collar and a button-up front.
+3002,silk shirt,300201,silk_shirt_green_S,30,shirt,green,S,259,,0,collared blouse made of 100% silk. cuffed long sleeves. wrap front with contrast ties.
+3002,silk shirt,300202,silk_shirt_black_M,30,shirt,black,M,259,,0,collared blouse made of 100% silk. cuffed long sleeves. wrap front with contrast ties.
+3003,flannel shirt,300301,flannel_shirt_blue_M,30,shirt,blue,M,299,,0,collared shirt featuring long cuffed sleeves with pleat details. split hem at the sides. button-up front.
+4001,leather trousers,400101,leather_trou_black_M,40,trousers,black,M,399,2,798,high-waist trousers with five pockets. straight leg. zip fly and metal top button fastening.
+4001,leather trousers,400102,leather_trou_black_L,40,trousers,black,L,399,5,1995,high-waist trousers with five pockets. straight leg. zip fly and metal top button fastening.
+4002,buttoned trousers,400201,buttoned_trou_white_M,40,trousers,white,M,259,,0,high-waist skinny trousers with front pockets and rear patch pockets. contrast button fastening at the front.
+4003,full length trousers,400301,full_len_trou_sand_M,40,trousers,sand,M,459,,0,high-waist trousers. straight-leg design. pronounced seam detail. zip fly and top button fastening.
+4003,full length trousers,400302,full_len_trou_sand_S,40,trousers,sand,S,459,1,459,high-waist trousers. straight-leg design. pronounced seam detail. zip fly and top button fastening.
+5001,quilt jacket,500101,quilt_jac_brown_L,50,jacket,brown,L,499,,0,"cropped puffer jacket with a high collar and long sleeves with elasticated cuffs. featuring side in-seam pockets, an elasticated hem and zip fastening and snap-buttons at the front."
+5002,leather jacket,500201,lea_jac_black_M,50,jacket,black,M,699,10,6990,"water-repellent puffer jacket with a high collar and long sleeves with inner elastic cuffs. featuring side pockets, matching interior lining and zip and snap-button fastening at the front."
+5002,leather jacket,500202,lea_jac_black_S,50,jacket,black,S,699,,0,"water-repellent puffer jacket with a high collar and long sleeves with inner elastic cuffs. featuring side pockets, matching interior lining and zip and snap-button fastening at the front."
+5003,waxed jacket,500301,wax_jac_navy_M,50,jacket,navy,M,599,,0,timeless cut jacket made with exclusively treated wax. lapel collar with contrast fabric and long sleeves. patch pockets with flaps and snap-button fastenings. cotton lining with a check print.
+5003,waxed jacket,500302,was_jac_navy_L,50,jacket,navy,L,599,6,3594,timeless cut jacket made with exclusively treated wax. lapel collar with contrast fabric and long sleeves. patch pockets with flaps and snap-button fastenings. cotton lining with a check print.

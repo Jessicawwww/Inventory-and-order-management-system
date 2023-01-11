@@ -1,0 +1,8 @@
+5: aaaaa
+3: bbb
+4; cccc
+7! ddddddd
+3 eee
+2 :ff
+6 gggggg
+AB

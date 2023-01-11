@@ -1,0 +1,16 @@
+sku_id,sku_name,quantity
+300101,lace_shirt_white_L,20
+300102,lace_shirt_black_M,40
+300201,silk_shirt_green_S,35
+300202,silk_shirt_black_M,67
+300301,flannel_shirt_blue_M,77
+400101,leather_trou_black_M,39
+400102,leather_trou_black_L,90
+400201,buttoned_trou_white_M,16
+400301,full_len_trou_sand_M,90
+400302,full_len_trou_sand_S,48
+500101,quilt_jac_brown_L,38
+500201,lea_jac_black_M,94
+500202,lea_jac_black_S,28
+500301,wax_jac_navy_M,75
+500302,was_jac_navy_L,34

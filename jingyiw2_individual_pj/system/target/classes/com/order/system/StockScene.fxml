@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.order.system.UI.StockController">
+   <children>
+      <Label alignment="CENTER" prefHeight="39.0" prefWidth="251.0" text="Item Stock List" textFill="#250505" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutY="72.0" prefHeight="0.0" prefWidth="1000.0" />
+      <TableView fx:id="stock_table" layoutX="14.0" layoutY="83.0" prefHeight="502.0" prefWidth="978.0">
+        <columns>
+          <TableColumn fx:id="colspu_name" prefWidth="48.0" text="SPU" />
+          <TableColumn fx:id="colsku_name" prefWidth="123.0" text="SKU" />
+            <TableColumn fx:id="colcategory" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="colquantity" prefWidth="107.0" text="Quantity" />
+            <TableColumn fx:id="colprice" prefWidth="72.0" text="Price" />
+            <TableColumn fx:id="coldescription" prefWidth="552.0" text="Description" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
